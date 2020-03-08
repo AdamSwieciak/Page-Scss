@@ -1,0 +1,15 @@
+@mixin flexboxrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@mixin flexboxcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@mixin bgc {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: top;
+}
